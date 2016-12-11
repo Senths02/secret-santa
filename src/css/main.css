@@ -1,0 +1,127 @@
+html,body {
+	margin:0px;
+}
+
+p{
+	position: absolute;
+}
+
+tap-container {
+	background: #101010;
+	left: 50%;
+	margin: 0px 0 0 -640px;
+	overflow: hidden;
+	position: fixed;
+	padding:0px;
+}
+
+tap-page, tap-container {
+	display:block;
+	height:720px;
+	width:1280px;
+}
+
+tap-page {
+	display: none;
+}
+
+tap-header {
+	display: block;
+	height: 96px;
+	position: absolute;
+	width:1280px;
+	top:0px;
+}
+
+tap-header-title {
+	position: absolute;
+}
+
+tap-nav-carousel { 
+	color: #ebebeb;
+	display: none;
+	font-family: "Helvetica Neue", "Helvetica Light", "Helvetica", sans-serif;
+	font-size: 24px;
+	height:64px;
+	position: absolute;
+	top: 118px;
+	width:1280px;
+}
+
+tap-nav-carousel-item {
+	padding: 0 37px;
+	text-align: center;
+}
+
+.slick-center {
+	background: url(../img/arrowLeft.png) left -10px no-repeat, url(../img/arrowRight.png) right -10px no-repeat;
+}
+
+.slick-center.sport {
+	color:#ffdf43;
+}
+
+.slick-center.news {
+	color:#bb1919;
+}
+
+tap-card-column {
+	float:left;
+	height:100%;
+	left:16px;
+	position:absolute;
+	top:160px;
+	width:304px;
+}
+
+tap-card {
+	background-color: #212121;
+	background-repeat: no-repeat;
+	height: 228px;
+	overflow: hidden;
+	position: absolute;
+	top: 16px;
+	width:304px;
+}
+
+tap-card[data-tap-card-type="tall"] {
+	height: 472px;
+	background-position: top center;
+}
+
+tap-card[data-tap-card-type="tall"].focus {
+	height: 488px;
+}
+
+tap-card.focus {
+	width: 320px;
+	height: 244px;
+	margin-left: -8px;
+	margin-top: -8px;
+}
+
+.tap-card-title-container {
+	bottom:0px;
+	color: #ebebeb;
+	font-family: helvetica;
+	font-size: 24px;
+	height:60px;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: absolute;
+	width: 100%;
+	background: #212121;
+}
+
+.tap-card-title-container-tall {
+	bottom:0px;
+	color: #ebebeb;
+	font-family: helvetica;
+	font-size: 24px;
+	height:98px;
+	padding-left: 20px;
+	padding-top: 20px;
+	position: absolute;
+	width: 100%;
+	background: #212121;
+}
