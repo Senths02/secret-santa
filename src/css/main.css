@@ -1,5 +1,14 @@
 #world {
 	background-color: #75d7cc;
 	width: 50%;
-	height: 25%;
+	height: 30%;
+}
+
+#snowman-parts{
+	position:relative;
+}
+
+img{
+	position: relative;
+	z-index: 100;
 }
